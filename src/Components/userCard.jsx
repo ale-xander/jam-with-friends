@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
-import { Card } from 'antd'
+import { Card, Avatar } from 'antd';
+import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
+
 import UserInterests from "./userInterests";
 import 'antd/dist/antd.css';
 import './userCard-styles.css'
@@ -19,9 +21,15 @@ export default class userCard extends Component {
                 src='https://images.unsplash.com/photo-1573871669414-010dbf73ca84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80'
             />
             }
+            actions={[
+              <SettingOutlined key="setting" />,
+              <EditOutlined key="edit" />,
+              <EllipsisOutlined key="ellipsis" />,
+            ]}
         >
         
             <Meta 
+                avatar={<Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />}
                 title='John' 
                 description="Let's jam at my place this weekend!"
             />
