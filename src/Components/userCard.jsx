@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Card, Avatar } from 'antd';
-import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
+import { EditOutlined, EllipsisOutlined, SettingOutlined, UserAddOutlined } from '@ant-design/icons';
 
 import UserInterests from "./userInterests";
 import 'antd/dist/antd.css';
@@ -22,6 +22,7 @@ export default class userCard extends Component {
             />
             }
             actions={[
+              <UserAddOutlined />,
               <SettingOutlined key="setting" />,
               <EditOutlined key="edit" />,
               <EllipsisOutlined key="ellipsis" />,
