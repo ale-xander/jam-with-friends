@@ -10,13 +10,16 @@ export default class userContainer extends Component {
         return (
             <div >
                 <Row >
-                    <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 0 }}>
+                    <Col xs={{ span: 12,  }} lg={{ span: 6, offset: 0 }}>
                     <UserCard />
                     </Col>
-                    <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 0 }}>
+                    <Col xs={{ span: 12, }} lg={{ span: 6, offset: 0 }}>
                     <UserCard />
                     </Col>
-                    <Col xs={{ span: 5, offset: 1 }} lg={{ span: 6, offset: 0 }}>
+                    <Col xs={{ span: 12, }} lg={{ span: 6, offset: 0 }}>
+                    <UserCard />
+                    </Col>
+                    <Col xs={{ span: 12, }} lg={{ span: 6, offset: 0 }}>
                     <UserCard />
                     </Col>
                 </Row>

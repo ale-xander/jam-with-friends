@@ -7,16 +7,22 @@ export default function interestContainer() {
     return (
         <div>
             <Row >
-                    <Col xs={{ span: 2, offset: 1 }} lg={{ span: 4, offset: 0 }}>
+                    <Col xs={{ span: 6,  }} lg={{ span: 4, offset: 0 }}>
                     <InterestCard />
                     </Col>
-                    <Col xs={{ span: 2, offset: 1 }} lg={{ span: 4, offset: 0 }}>
+                    <Col xs={{ span: 6,  }} lg={{ span: 4, offset: 0 }}>
                     <InterestCard />
                     </Col>
-                    <Col xs={{ span: 2, offset: 1 }} lg={{ span: 4, offset: 0 }}>
+                    <Col xs={{ span: 6,  }} lg={{ span: 4, offset: 0 }}>
                     <InterestCard />
                     </Col>
-                    <Col xs={{ span: 2, offset: 1 }} lg={{ span: 4, offset: 0 }}>
+                    <Col xs={{ span: 6,  }} lg={{ span: 4, offset: 0 }}>
+                    <InterestCard />
+                    </Col>
+                    <Col xs={{ span: 6,  }} lg={{ span: 4, offset: 0 }}>
+                    <InterestCard />
+                    </Col>
+                    <Col xs={{ span: 6, }} lg={{ span: 4, offset: 0 }}>
                     <InterestCard />
                     </Col>
                    
