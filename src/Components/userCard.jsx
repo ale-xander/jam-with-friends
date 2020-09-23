@@ -28,7 +28,7 @@ export default class userCard extends Component {
                 <Tag>Perform Live</Tag>
                 <Tag>Record Song</Tag>
         </Card>
-        ,
+
       </div>
     )
   }
