@@ -1,15 +1,18 @@
 import React, { Component } from 'react'
-import { Card, Tag } from 'antd'
+import { Card } from 'antd'
+import UserInterests from "./userInterests";
 import 'antd/dist/antd.css';
+import './userCard-styles.css'
+
 const { Meta } = Card;
 
 export default class userCard extends Component {
   render () {
     return (
-      <div>
+      <div className="user-card">
         <Card
             hoverable
-            style={{ width: 240 }}
+            // style={{ width: 300 }}
             cover={
             <img
                 alt='trumpet'
@@ -22,11 +25,7 @@ export default class userCard extends Component {
                 title='John' 
                 description="Let's jam at my place this weekend!"
             />
-                <Tag>Jam</Tag>
-                <Tag>Lessons</Tag>
-                <Tag>Join a Band</Tag>
-                <Tag>Perform Live</Tag>
-                <Tag>Record Song</Tag>
+               <UserInterests />
         </Card>
 
       </div>
