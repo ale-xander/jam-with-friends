@@ -10,7 +10,7 @@ class userContainer extends Component {
                 <Row>
                 {this.props.userData.map((user, index)=> (
                     <Col xs={{ span: 12,  }} lg={{ span: 6, offset: 0 }} key={index}>
-                        <UserCard key={index} name={user.name} description={user.description}/>
+                        <UserCard key={index} name={user.name} description={user.description} interests={user.interests}/>
                     </Col>
                 ))}
                 </Row>

@@ -43,7 +43,7 @@ class userCard extends Component {
           title={this.props.name}
           description={this.props.description}
         />
-        <UserInterests />
+        <UserInterests interests={this.props.interests}/>
       </Card>
     </div>
     );
