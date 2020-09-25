@@ -2,14 +2,16 @@ import React from 'react';
 import UserContainer from "./Components/userContainer";
 import InterestContainer from "./Components/interestContainer";
 import './App.css';
-//test
+import tempData from './Components/tempData'
+
+const userData = tempData.users.users
 
 function App() {
   return (
     <div className="App">
       <InterestContainer />
       some text be here. !!!
-      <UserContainer />
+      <UserContainer userData={userData} />
     </div>
   );
 }

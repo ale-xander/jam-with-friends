@@ -3,31 +3,20 @@ import { Row, Col } from 'antd';
 import UserCard from "./userCard";
 import 'antd/dist/antd.css';
 
-
-
-export default class userContainer extends Component {
+class userContainer extends Component {
     render() {
         return (
-            <div >
-                <Row >
-                    <Col xs={{ span: 12,  }} lg={{ span: 6, offset: 0 }}>
-                    <UserCard />
+            <div>
+                <Row>
+                {this.props.userData.map((user, index)=> (
+                    <Col xs={{ span: 12,  }} lg={{ span: 6, offset: 0 }} key={index}>
+                        <UserCard key={index} name={user.name} description={user.description}/>
                     </Col>
-                    <Col xs={{ span: 12, }} lg={{ span: 6, offset: 0 }}>
-                    <UserCard />
-                    </Col>
-                    <Col xs={{ span: 12, }} lg={{ span: 6, offset: 0 }}>
-                    <UserCard />
-                    </Col>
-                    <Col xs={{ span: 12, }} lg={{ span: 6, offset: 0 }}>
-                    <UserCard />
-                    </Col>
+                ))}
                 </Row>
-
-
-
-                
             </div>
-        )
+        );
     }
 }
+
+export default userContainer;
