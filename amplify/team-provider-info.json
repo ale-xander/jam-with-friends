@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-jamwithfriends-dev-123505-authRole",
+      "UnauthRoleArn": "arn:aws:iam::214463569923:role/amplify-jamwithfriends-dev-123505-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::214463569923:role/amplify-jamwithfriends-dev-123505-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-jamwithfriends-dev-123505-deployment",
+      "UnauthRoleName": "amplify-jamwithfriends-dev-123505-unauthRole",
+      "StackName": "amplify-jamwithfriends-dev-123505",
+      "StackId": "arn:aws:cloudformation:us-west-2:214463569923:stack/amplify-jamwithfriends-dev-123505/74077410-ff55-11ea-9aa6-068a43604208",
+      "AmplifyAppId": "dy0luesev93m0"
+    }
+  }
+}
