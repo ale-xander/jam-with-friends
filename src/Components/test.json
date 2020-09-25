@@ -1,0 +1,15 @@
+[
+        {
+        "id": 1,
+        "name": "alex",
+        "description": "I want to teach you how to play guitar",
+        "interests": ["guitar", "bass"]
+
+    },
+    {
+        "id": 2,
+        "name": "john",
+        "description": "Let's jam!",
+        "interests": ["trumpet", "banjo"]
+    }
+]

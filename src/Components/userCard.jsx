@@ -5,6 +5,7 @@ import { EditOutlined, EllipsisOutlined, SettingOutlined, UserAddOutlined } from
 import UserInterests from "./userInterests";
 import 'antd/dist/antd.css';
 import './userCard-styles.css'
+import './test.json'
 
 const { Meta } = Card;
 
